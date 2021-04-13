@@ -94,7 +94,7 @@ function apiRequestJson($method, $parameters) {
 	return exec_curl_request($handle); 
 } 
 function processaCallbackQuery($callback){
-  $BOT_TOKEN = "1464884358:AAHXHr8m2Kd_3M_yKPF1jL53_dvAbmlotH0";
+  $BOT_TOKEN = "1794474405:AAF9tJzkbwvWdQNpUmOfGUjGJFSIl9KamOw";
   $callback_id = $callback['id'];
   $chat_id = $callback['message']['chat']['id'];
   $type = $callback['message']['chat']['type'];
