@@ -94,7 +94,7 @@ function apiRequestJson($method, $parameters) {
 	return exec_curl_request($handle); 
 } 
 function processaCallbackQuery($callback){
-  $BOT_TOKEN = "1794474405:AAF9tJzkbwvWdQNpUmOfGUjGJFSIl9KamOw";
+  $BOT_TOKEN = "1723005657:AAFm45ldgQGmD0aoWbmmUtYw2EJmV98UDF8";
   $callback_id = $callback['id'];
   $chat_id = $callback['message']['chat']['id'];
   $type = $callback['message']['chat']['type'];
@@ -105,8 +105,8 @@ function processaCallbackQuery($callback){
   $data =  $callback['data'];
   $data_array=unserialize($data);
   $anterior = $message_id - 1;
-  $adm = "1484706029";
-  $adm2 = "902983459";
+  $adm = "1136071279";
+  $adm2 = "1136071279";
   
   if($data_array['data']=="apagar") {
      if($data_array['id']==$callback['from']['id']) {      
